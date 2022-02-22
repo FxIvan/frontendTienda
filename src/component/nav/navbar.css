@@ -1,0 +1,19 @@
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a img{
+    width: 45%;
+}
+
+nav ul li a{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+    text-decoration: none;
+}

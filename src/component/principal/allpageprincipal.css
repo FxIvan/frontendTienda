@@ -1,0 +1,232 @@
+body{
+    position: relative;
+    padding-bottom: 8em;
+    min-height: 100vh;
+}
+h1{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 25ch;
+    font-size: 10vh;
+
+    animation: typing 2s steps(25) , 
+    blinck .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from { width: 0;}
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+.banner-imagen{
+    height: 50vh;
+}
+
+.banner-principal img{
+    position: absolute;
+    border-bottom: 12px solid black;
+    z-index: 0;
+    height: 50vh;
+}
+.nosotros-container{
+    margin-top: 4rem;
+}
+
+.nosotros-container p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nosotros-container h2{
+    font-size: 3rem;
+}
+
+.nosotros-container img{
+    width: 82%;
+}
+
+.contacto-whatsapp h2{
+    font-size: 3rem;
+}
+
+.contacto-whatsapp span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contacto-whatsapp p{
+    font-size: 1.2rem;
+}
+
+.contacto-whatsapp ul li{
+    font-size: 1.5rem;
+}
+.contacto-whatsapp h4{
+    font-size: 1.4rem;
+}
+
+.contacto-whatsapp a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.algunoproductos{
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.algunoproductos img{
+    width: 100%;
+    padding-top: 2rem;
+}
+.algunoproductos h4{
+    overflow: hidden;
+    height: 88px;
+    padding-bottom: 2rem;
+}
+.container-algunosproductos{
+    margin-bottom: 5rem;
+}
+
+.container-algunosproductos button{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.container-algunosproductos h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.target-container{
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+.target-container .target-text{
+    height: 20vh;
+}
+
+.target-container .target-text{
+    height: 30vh;
+    overflow: hidden;
+}
+.target-container .target-text span{
+    font-size: 1.5rem;
+}
+
+.target-container img{
+    width: 100%;
+}
+
+.vermas-target{
+    padding: 0.5rem;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.contactar-target a{
+    padding: 0.5rem;
+    background-color: rgb(4, 153, 53);
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.vermas-target:hover{
+    text-decoration: none;
+    color: rgb(20, 12, 2);
+}
+.contactar-target a:hover{
+    text-decoration: none;
+    color: rgb(20, 12, 2);
+}
+.span-codigo span{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: .5rem;
+    color: #8d8405;
+}
+
+.vermas-imagen img{
+    width: 100%;
+}
+
+#numerocontacto{
+    padding: 0.5rem;
+    background-color: blueviolet;
+    border: 2px solid rgb(94, 93, 93);
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    margin-left: 2rem   ;
+}
+
+.envios-target span{
+    font-size: 1rem;
+}
+.header-target p span{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: .5rem;
+    color: #46aa32;
+}
+
+.descripcion-target p{
+    font-size: 1.5rem;
+}
+
+li{
+    list-style: none;
+}
+
+.aviso-whatsapp{
+    color: #666463;
+    margin-bottom: 5rem;
+}
+.footer-container{
+    margin-top: 5rem;
+    background-color: #c75d17;
+    padding: 0;
+    border-top: 4px solid black;
+}
+
+.footer-container img{
+    width: 30%;
+}
+.redessociales-contacto img{
+    width: 60%;
+}
+.comprarboton-target a:hover{
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.comprarboton-target a{
+    color: azure;
+}
+
+.textcontact-container h3{
+    font-size: 2rem;
+}
+
+.textcontact-container p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
