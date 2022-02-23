@@ -10,6 +10,7 @@ import { Principal } from './component/principal/principal';
 import { Productos } from './component/productos/productos';
 import { ToUpdate } from './component/toUpdate/toUpdate'
 import { VerMas } from './component/verMas/verMas';
+import { Faq } from './component/faq/faq';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Header/>
               <Routes>
                 <Route path='/' element={<Principal/>}/>
+                <Route path='/faq' element={<Faq/>}/>
                 <Route path='/cargarproducto' element={<Form/>}/>
                 <Route path='/cargarproducto/panelform' element={<Panel/>}/>
                 <Route path='/toupdate/:id' element={<ToUpdate/>}/>

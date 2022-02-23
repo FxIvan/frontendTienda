@@ -10,7 +10,7 @@ export const Header = () =>{
                 <ul className='row col-12 text-center justify-content-around align-items-center'>
                     <li className='col-2'><Link to={'/'}><img src={logo}/></Link></li>
                     <li className='col-2'><a href='/#nosotros'>Nosotros</a></li>
-                    <li className='col-2'><Link to={'/FAQ'}>FAQ</Link></li>
+                    <li className='col-2'><Link to={'/faq'}>FAQ</Link></li>
                     <li className='col-2'><Link to={'/productos'}>Productos</Link></li>
                     <li className='col-2'><Link to={'/contacto'}>Contacto</Link></li>
                 </ul>

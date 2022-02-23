@@ -2,6 +2,7 @@ import React from 'react'
 import {GrSecure} from 'react-icons/gr'
 import {RiOpenArmLine} from 'react-icons/ri'
 import {FaBalanceScale} from 'react-icons/fa'
+import imagenEjemplo from '../../imagenes/imagenEjemplo.svg'
 
 export const Contacto = () =>{
 
@@ -38,7 +39,7 @@ export const Contacto = () =>{
                 </div>
                 <div>
                     <div className='text-center mt-3 mb-4'>
-                        <img src='' alt='ejemplo contacto'/>
+                        <img src={imagenEjemplo} alt='ejemplo contacto'/>
                     </div> 
                     <p>¿Estas desde una computadora y no sabes abrir whatsapp? <a href=''><strong>Haz Click Aqui y seran solo tres simple pases para contectarte</strong></a></p>
                 </div>
