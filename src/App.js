@@ -14,8 +14,6 @@ import { VerMas } from './component/verMas/verMas';
 function App() {
 
   return (
-    <div>
- 
         <PeticionesContext>
           <BrowserRouter>
             <Header/>
@@ -31,8 +29,6 @@ function App() {
               <Footer/>
           </BrowserRouter>
         </PeticionesContext>
-    
-    </div>
   );
 }
 
