@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontendTienda/static/css/main.d8cc7c14.css",
+    "main.js": "/frontendTienda/static/js/main.3add718c.js",
+    "static/js/787.cda612ba.chunk.js": "/frontendTienda/static/js/787.cda612ba.chunk.js",
+    "static/media/imagenEjemplo.svg": "/frontendTienda/static/media/imagenEjemplo.bbd9574a3407156eb8db5a1fccde849a.svg",
+    "static/media/logoInstagram.svg": "/frontendTienda/static/media/logoInstagram.c442b73951d12f63b4bd8c3e4c0aace8.svg",
+    "static/media/Almendra.svg": "/frontendTienda/static/media/Almendra.2ca2f5cbf80daea40a2973969e2d336e.svg",
+    "static/media/Saludo.svg": "/frontendTienda/static/media/Saludo.2ff164387b6228f18e978532452f5778.svg",
+    "static/media/EukanubaWeb.jpg": "/frontendTienda/static/media/EukanubaWeb.4c483ede7297dc94f331.jpg",
+    "static/media/logoFacebook.svg": "/frontendTienda/static/media/logoFacebook.ce0a30414514a814f2af3311a3549d3e.svg",
+    "static/media/logoLinkedIn.svg": "/frontendTienda/static/media/logoLinkedIn.02603eb659a5c5919a82ef2c45290381.svg",
+    "static/media/nosotrosIlustracion.svg": "/frontendTienda/static/media/nosotrosIlustracion.5536524cd7f0e781ac2e72881bdd5dca.svg",
+    "index.html": "/frontendTienda/index.html",
+    "main.d8cc7c14.css.map": "/frontendTienda/static/css/main.d8cc7c14.css.map",
+    "main.3add718c.js.map": "/frontendTienda/static/js/main.3add718c.js.map",
+    "787.cda612ba.chunk.js.map": "/frontendTienda/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8cc7c14.css",
+    "static/js/main.3add718c.js"
+  ]
+}
